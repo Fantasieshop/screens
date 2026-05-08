@@ -20,8 +20,12 @@
           "dot": "#ff6b9d",
           "cats": ["iphone", "flat"],
           "models": [
-            { "n": "iPhone 14 Plus" }, { "n": "iPhone 15 Plus" }, { "n": "iPhone 16 Plus" },
-            { "n": "iPhone 13 Pro Max" }, { "n": "iPhone 14 Pro Max" }, { "n": "iPhone 15 Pro Max" }
+            { "n": "iPhone 14 Plus" },
+            { "n": "iPhone 15 Plus" },
+            { "n": "iPhone 16 Plus" },
+            { "n": "iPhone 13 Pro Max" },
+            { "n": "iPhone 14 Pro Max" },
+            { "n": "iPhone 15 Pro Max" }
           ],
           "note": "<strong>4/5/6 Plus & 3PM:</strong> مقاس موحد 6.7 لعدة أجيال.",
           "size": "6.7\""
@@ -42,9 +46,12 @@
           "dot": "#ff6b9d",
           "cats": ["iphone", "flat"],
           "models": [
-            { "n": "iPhone 12" }, { "n": "iPhone 12 Pro" },
-            { "n": "iPhone 13" }, { "n": "iPhone 14" },
-            { "n": "iPhone 15" }, { "n": "iPhone 16" },
+            { "n": "iPhone 12" },
+            { "n": "iPhone 12 Pro" },
+            { "n": "iPhone 13" },
+            { "n": "iPhone 14" },
+            { "n": "iPhone 15" },
+            { "n": "iPhone 16" },
             { "n": "iPhone 13 Pro" }
           ],
           "note": "<strong>جوكر الفئة الوسطى:</strong> يشمل أجيال 12 حتى 16.",
@@ -55,10 +62,58 @@
           "dot": "#ff6b9d",
           "cats": ["iphone", "flat"],
           "models": [
-            { "n": "iPhone X" }, { "n": "iPhone XS" }, { "n": "iPhone 11 Pro" }
+            { "n": "iPhone X" },
+            { "n": "iPhone XS" },
+            { "n": "iPhone 11 Pro" }
           ],
           "note": "<strong>كلاسيك:</strong> مقاس 5.8 ثلاثي التوافق.",
           "size": "5.8\""
+        },
+        {
+          "label": "iPhone XR / 11 (6.1 LCD)",
+          "dot": "#ff6b9d",
+          "cats": ["iphone", "flat"],
+          "models": [
+            { "n": "iPhone XR" },
+            { "n": "iPhone 11" }
+          ],
+          "note": "<strong>LCD 6.1:</strong> مختلف عن OLED 6.1 — <span class=\"warn\">لا تخلط</span>.",
+          "size": "6.1\" LCD"
+        },
+        {
+          "label": "iPhone XS Max / 11 Pro Max",
+          "dot": "#ff6b9d",
+          "cats": ["iphone", "flat"],
+          "models": [
+            { "n": "iPhone XS Max" },
+            { "n": "iPhone 11 Pro Max" }
+          ],
+          "note": "<strong>6.5 كلاسيك:</strong> جيل 2018–2019.",
+          "size": "6.5\""
+        },
+        {
+          "label": "iPhone 7 / 8 / SE",
+          "dot": "#ff6b9d",
+          "cats": ["iphone", "flat"],
+          "models": [
+            { "n": "iPhone 7" },
+            { "n": "iPhone 8" },
+            { "n": "iPhone SE 2020" },
+            { "n": "iPhone SE 2022" }
+          ],
+          "note": "<strong>SE:</strong> نفس هيكل 7/8.",
+          "size": "4.7\""
+        },
+        {
+          "label": "iPhone Mini (5.4)",
+          "dot": "#ff6b9d",
+          "cats": ["iphone", "flat"],
+          "models": [
+            { "n": "iPhone 12 mini" },
+            { "n": "iPhone 13 mini" }
+          ],
+          "note": "<strong>ميني:</strong> مقاس صغير مستقل.",
+          "size": "5.4\""
         }
       ]
     },
@@ -71,129 +126,238 @@
           "dot": "#4fc3f7",
           "cats": ["samsung", "flat"],
           "models": [
-            { "n": "S24 Ultra" }, { "n": "S25 Ultra" }, { "n": "S26 Ultra", "nw": true }
+            { "n": "S24 Ultra" },
+            { "n": "S25 Ultra" },
+            { "n": "S26 Ultra", "nw": true }
           ],
           "note": "<strong>Ultra مسطح:</strong> توافق عبر 3 أجيال.",
           "size": "6.9\""
+        },
+        {
+          "label": "S+ Joker (6.7)",
+          "dot": "#4fc3f7",
+          "cats": ["samsung", "flat"],
+          "models": [
+            { "n": "S24+" },
+            { "n": "S25+" },
+            { "n": "S26+", "nw": true },
+            { "n": "A55" },
+            { "n": "A56", "nw": true },
+            { "n": "A57", "nw": true },
+            { "n": "A35" },
+            { "n": "A36", "nw": true },
+            { "n": "A34" },
+            { "n": "M55" },
+            { "n": "C55" },
+            { "n": "F55" }
+          ],
+          "note": "<strong>جوكر 6.7:</strong> S Plus و A-Series الوسطى. <span class=\"warn\">A54 أكبر — لا تخلط!</span>",
+          "size": "6.6\"–6.7\""
         },
         {
           "label": "S Standard (6.2)",
           "dot": "#4fc3f7",
           "cats": ["samsung", "flat"],
           "models": [
-            { "n": "S23" }, { "n": "S24" }, { "n": "S25" }, { "n": "S26", "nw": true }
+            { "n": "S23" },
+            { "n": "S24" },
+            { "n": "S25" },
+            { "n": "S26", "nw": true }
           ],
-          "note": "<strong>S القياسي:</strong> مسطح 6.1-6.2 — يشمل S23 وما بعده.",
+          "note": "<strong>S القياسي:</strong> مسطح 6.1-6.2 — توافق جيل 23 وما بعده.",
           "size": "6.2\""
         },
         {
-          "label": "A Low Joker (6.5-6.6)",
+          "label": "A54 / S23 FE (6.4)",
           "dot": "#4fc3f7",
           "cats": ["samsung", "flat"],
           "models": [
-            { "n": "A12 / A13 / A14 / A15 / A16" },
-            { "n": "M12 / M13 / M14" },
-            { "n": "A04 / A05 / A06" }
+            { "n": "Galaxy A54 5G" },
+            { "n": "Galaxy S23 FE" }
           ],
-          "note": "<strong>اقتصادي:</strong> يغطي فئات A و M الاقتصادية بنظام النوتش.",
+          "note": "<strong>منفرد:</strong> A54 مقاس خاص أكبر من A55.",
+          "size": "6.4\""
+        },
+        {
+          "label": "A Joker (6.5–6.6)",
+          "dot": "#4fc3f7",
+          "cats": ["samsung", "flat"],
+          "models": [
+            { "n": "A15" },
+            { "n": "A16", "nw": true },
+            { "n": "A17", "nw": true },
+            { "n": "A24" },
+            { "n": "A25" },
+            { "n": "M15" },
+            { "n": "M25" },
+            { "n": "M34" },
+            { "n": "M35" },
+            { "n": "F15" }
+          ],
+          "note": "<strong>جوكر A الوسطى:</strong> تشمل فئات M و F المتطابقة.",
           "size": "6.5\""
+        },
+        {
+          "label": "A Low Joker (6.5)",
+          "dot": "#4fc3f7",
+          "cats": ["samsung", "flat"],
+          "models": [
+            { "n": "A12" },
+            { "n": "A13" },
+            { "n": "A14" },
+            { "n": "A04" },
+            { "n": "A04s" },
+            { "n": "A05" },
+            { "n": "A06", "nw": true },
+            { "n": "M12" },
+            { "n": "M13" },
+            { "n": "M14" },
+            { "n": "M04" },
+            { "n": "F04" }
+          ],
+          "note": "<strong>اقتصادي:</strong> فئة A/M الرخيصة الموحدة.",
+          "size": "6.5\""
+        },
+        {
+          "label": "A Old (6.4)",
+          "dot": "#4fc3f7",
+          "cats": ["samsung", "flat"],
+          "models": [
+            { "n": "A10" },
+            { "n": "A10s" },
+            { "n": "A20" },
+            { "n": "A30" },
+            { "n": "A30s" },
+            { "n": "A50" },
+            { "n": "A50s" }
+          ],
+          "note": "<strong>قديم 2019–2020:</strong> جيل LCD.",
+          "size": "6.4\""
+        },
+        {
+          "label": "S Ultra Curved (UV 6.8)",
+          "dot": "#e040fb",
+          "cats": ["samsung", "curved"],
+          "models": [
+            { "n": "S22 Ultra" },
+            { "n": "S23 Ultra" }
+          ],
+          "note": "<strong>UV منحني:</strong> أطراف منحنية — جيل 2022–2023.",
+          "size": "6.8\" UV"
         }
       ]
     },
     {
-      "id": "pixel_xiaomi",
-      "title": "📱 Pixel & High-End Android",
+      "id": "pixel",
+      "title": "📱 Google Pixel",
       "rows": [
-        {
-          "label": "Compact Pro Joker (6.3)",
-          "dot": "#60cfff",
-          "cats": ["pixel", "xiaomi", "flat"],
-          "models": [
-            { "n": "Pixel 9 / 9 Pro" },
-            { "n": "Pixel 10 / 10 Pro", "nw": true },
-            { "n": "Xiaomi 14 / 15", "nw": true }
-          ],
-          "note": "<strong>جوكر البرو الصغير:</strong> مقاس موحد للفئات الرائدة الصغيرة.",
-          "size": "6.3\""
-        },
         {
           "label": "Pixel XL Flat (6.8)",
           "dot": "#00c9ff",
           "cats": ["pixel", "flat"],
           "models": [
-            { "n": "Pixel 8 Pro" }, { "n": "Pixel 9 Pro XL" }, { "n": "Pixel 10 Pro XL", "nw": true }
+            { "n": "Pixel 8 Pro" },
+            { "n": "Pixel 9 Pro XL" },
+            { "n": "Pixel 10 Pro XL", "nw": true }
           ],
-          "note": "<strong>الجوكر الضخم:</strong> مسطح تماماً وسهل التركيب.",
+          "note": "<strong>الجوكر الضخم:</strong> مسطح تماماً، سهل التركيب.",
           "size": "6.8\""
-        }
-      ]
-    },
-    {
-      "id": "universal_brands",
-      "title": "🌍 Universal (Realme / Honor / Infinix)",
-      "rows": [
-        {
-          "label": "Universal 6.67 Joker",
-          "dot": "#ffd700",
-          "cats": ["universal", "flat"],
-          "models": [
-            { "n": "Realme 11 / 12 / 13" },
-            { "n": "Honor X7 / X8 / X9" },
-            { "n": "Infinix Note 30 / 40" },
-            { "n": "Poco F6 / F7 / X7 / X8" },
-            { "n": "Redmi Note 12 / 13 / 14 / 15" }
-          ],
-          "note": "<strong>جوكر الأندرويد الشامل:</strong> يغطي 90% من الشاشات المسطحة الكبيرة.",
-          "size": "6.67\""
         },
         {
-          "label": "Universal Eco Joker",
-          "dot": "#00e5a0",
-          "cats": ["universal", "flat"],
+          "label": "Pixel Pro/Std (6.3)",
+          "dot": "#60cfff",
+          "cats": ["pixel", "flat"],
           "models": [
-            { "n": "Realme C33 / C53 / C55 / C67" },
-            { "n": "Honor X5 / X6" },
-            { "n": "Infinix Hot 30 / 40i" },
-            { "n": "Redmi 12 / 13C / 14C" }
+            { "n": "Pixel 9" },
+            { "n": "Pixel 9 Pro" },
+            { "n": "Pixel 10", "nw": true },
+            { "n": "Pixel 10 Pro", "nw": true }
           ],
-          "note": "<strong>الجوكر الاقتصادي العالمي:</strong> للفئات الرخيصة بنظام النوتش.",
-          "size": "6.5\"-6.7\""
-        }
-      ]
-    },
-    {
-      "id": "curved_uv",
-      "title": "💎 Curved Screen (UV / Nano)",
-      "rows": [
-        {
-          "label": "Samsung Curved UV",
-          "dot": "#e040fb",
-          "cats": ["samsung", "curved"],
-          "models": [
-            { "n": "S22 Ultra" }, { "n": "S23 Ultra" }
-          ],
-          "note": "<strong>منحني سامسونج:</strong> يحتاج حماية UV خاصة.",
-          "size": "6.8\" UV"
+          "note": "<strong>الجوكر الحديث:</strong> مقاس موحد للعادي والبرو الصغير.",
+          "size": "6.3\""
         },
         {
-          "label": "Pixel Curved UV",
+          "label": "Pixel Curved (UV)",
           "dot": "#e040fb",
           "cats": ["pixel", "curved"],
           "models": [
-            { "n": "Pixel 6 Pro" }, { "n": "Pixel 7 Pro" }
+            { "n": "Pixel 6 Pro" },
+            { "n": "Pixel 7 Pro" }
           ],
-          "note": "<strong>منحني بكسل:</strong> أطراف انسيابية.",
-          "size": "6.7\"-6.8\""
+          "note": "<strong>منحني:</strong> يحتاج نانو أو UV.",
+          "size": "6.7\"–6.8\""
+        }
+      ]
+    },
+    {
+      "id": "redmi",
+      "title": "🔴 Xiaomi / Redmi / Poco / Realme / Honor / Infinix",
+      "rows": [
+        {
+          "label": "Note / Poco / Realme / Honor Joker (6.67)",
+          "dot": "#ffd700",
+          "cats": ["redmi", "universal", "flat"],
+          "models": [
+            { "n": "Note 11" },
+            { "n": "Note 12" },
+            { "n": "Note 13" },
+            { "n": "Note 14" },
+            { "n": "Note 15" },
+            { "n": "Note 16 Pro", "nw": true },
+            { "n": "Poco X7", "nw": true },
+            { "n": "Poco X8", "nw": true },
+            { "n": "Poco F6", "nw": true },
+            { "n": "Poco F7", "nw": true },
+            { "n": "Realme 11" },
+            { "n": "Realme 12" },
+            { "n": "Realme 13" },
+            { "n": "Honor X7" },
+            { "n": "Honor X8" },
+            { "n": "Honor X9" },
+            { "n": "Infinix Note 30" },
+            { "n": "Infinix Note 40" }
+          ],
+          "note": "<strong>ملك السوق:</strong> جوكر شامل يغطي Redmi Note و Poco و Realme و Honor و Infinix بنفس المقاس.",
+          "size": "6.67\""
         },
         {
-          "label": "Xiaomi Curved UV",
+          "label": "Redmi Curved (UV)",
           "dot": "#e040fb",
           "cats": ["redmi", "curved"],
           "models": [
-            { "n": "Note 13 Pro+ / 14 Pro+ / 15 Pro+" }
+            { "n": "Note 13 Pro+" },
+            { "n": "Note 14 Pro" },
+            { "n": "Note 14 Pro+" },
+            { "n": "Note 15 Pro+" },
+            { "n": "Note 16 Pro+", "nw": true }
           ],
-          "note": "<strong>فئة الـ Edge:</strong> انحناء أطراف حاد.",
-          "size": "6.67\""
+          "note": "<strong>فئة المنحني:</strong> انحناء أطراف (Edge) — 2025/2026.",
+          "size": "6.67\"–6.73\""
+        },
+        {
+          "label": "A/C / Realme C / Honor X5 / Infinix Hot Joker (6.5)",
+          "dot": "#00e5a0",
+          "cats": ["redmi", "universal", "flat"],
+          "models": [
+            { "n": "Redmi A1" },
+            { "n": "Redmi A2" },
+            { "n": "Redmi A3" },
+            { "n": "Redmi 12" },
+            { "n": "Redmi 13C" },
+            { "n": "Redmi 14C" },
+            { "n": "Redmi 15C" },
+            { "n": "Redmi 16C", "nw": true },
+            { "n": "Realme C33" },
+            { "n": "Realme C53" },
+            { "n": "Realme C55" },
+            { "n": "Realme C67" },
+            { "n": "Honor X5" },
+            { "n": "Honor X6" },
+            { "n": "Infinix Hot 30" },
+            { "n": "Infinix Hot 40i" }
+          ],
+          "note": "<strong>الجوكر الاقتصادي الشامل:</strong> يجمع فئات C/A الرخيصة من كل الماركات.",
+          "size": "6.5\"–6.7\""
         }
       ]
     }
