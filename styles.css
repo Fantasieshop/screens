@@ -3,21 +3,6 @@
 ══════════════════════════════════════ */
 
 :root {
-  --bg:       #080d18;
-  --surface:  #0f1624;
-  --surface2: #161f30;
-  --border:   #1c2a40;
-  --accent:   #00c9ff;
-  --accent2:  #e040fb;
-  --gold:     #ffd700;
-  --text:     #e2e8f4;
-  --muted:    #6b7e9a;
-  --green:    #00e5a0;
-  --orange:   #ff8c42;
-  --red:      #ff5c5c;
-}
-
-[data-theme="light"] {
   --bg:       #f0f4fb;
   --surface:  #ffffff;
   --surface2: #e8eef8;
@@ -30,6 +15,21 @@
   --green:    #007a50;
   --orange:   #c05c10;
   --red:      #cc2222;
+}
+
+[data-theme="light"] {
+  --bg:       #080d18;
+  --surface:  #0f1624;
+  --surface2: #161f30;
+  --border:   #1c2a40;
+  --accent:   #00c9ff;
+  --accent2:  #e040fb;
+  --gold:     #ffd700;
+  --text:     #e2e8f4;
+  --muted:    #6b7e9a;
+  --green:    #00e5a0;
+  --orange:   #ff8c42;
+  --red:      #ff5c5c;
 }
 
 /* ══════════════════════════════════════
