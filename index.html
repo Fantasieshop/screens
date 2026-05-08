@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Screen Protector</title>
+  <link rel="icon" type="image/x-icon" href="https://fantasieshop.github.io/linktree/icon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- ══════════════════ THEME TOGGLE ══════════════════ -->
+
+
+  <!-- ══════════════════ CONTROLS ══════════════════ -->
+  <div class="controls">
+
+    <div class="filters">
+      <button class="theme-toggle" onclick="toggleTheme()" id="themeBtn">
+        <span class="toggle-icon" id="themeIcon">☀️</span>
+      </button>
+      <button class="fb active" onclick="setFilter('all',    this)">الكل</button>
+      <button class="fb" onclick="setFilter('iphone', this)">🍎 iPhone</button>
+      <button class="fb" onclick="setFilter('samsung',this)">🌀 Samsung</button>
+      <button class="fb" onclick="setFilter('pixel',  this)">📱 Pixel</button>
+      <button class="fb" onclick="setFilter('redmi',  this)">🔴 Redmi / Poco</button>
+      <button class="fb" onclick="setFilter('curved', this)">〰 منحني (UV)</button>
+      <button class="fb" onclick="setFilter('flat',   this)">⬜ مسطح</button>
+    </div>
+
+    <div class="result-count" id="resultCount"></div>
+
+    <div class="search-box">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="searchInput" placeholder="ابحث عن موديل، لزقة، حجم شاشة...">
+      <button id="clearBtn" onclick="clearSearch()">✕</button>
+    </div>
+
+  </div>
+
+  <!-- ══════════════════ TABLE (rendered by JS) ══════════════════ -->
+  <div id="appRoot"></div>
+
+  <!-- ══════════════════ NO RESULTS ══════════════════ -->
+  <div class="no-results" id="noResults">
+    <div class="em">🔍</div>
+    <p>لا توجد نتائج لـ "<span id="nrQ"></span>"</p>
+  </div>
+
+  <!-- ══════════════════ NOTES ══════════════════ -->
+  <div class="notes-card">
+    <div class="notes-inner">
+      <h3>💡 ملاحظات وإضافات 2026</h3>
+      <ol>
+        <li><strong>Redmi Note 16:</strong> النسخة <strong>Pro</strong> (مسطحة) ← Redmi Note Joker | النسخة
+          <strong>Pro+</strong> ← Redmi Curved (UV).
+        </li>
+        <li><strong>Poco X8 / M8:</strong> شاومي وحّدت مقاسات Poco مع ريدمي نوت في 2026 — "Note Joker" هي الحل الأمثل.
+        </li>
+        <li><strong>Pixel 10:</strong> جوجل استمرت بالشاشات المسطحة — تم إدراج Pixel 10 و 10 Pro XL.</li>
+        <li><strong>iPhone 17:</strong> نفس مقاسات 16 Pro/Pro Max — القياسات لم تتغير.</li>
+        <li><strong>Samsung S26:</strong> استمر التوافق مع S25/S24 لثبات المقاسات.</li>
+        <li><strong style="color:#ff5c5c">تحذير: A54 ≠ A55</strong> — مقاس A54 أكبر من A55، لا يركب عليه.</li>
+      </ol>
+    </div>
+  </div>
+
+  <!-- ══════════════════ LEGEND ══════════════════ -->
+  <div class="legend-wrap">
+    <div class="legend-items">
+      <div class="legend-item"><span class="ldot" style="background:#ff6b9d"></span>iPhone</div>
+      <div class="legend-item"><span class="ldot" style="background:#4fc3f7"></span>Samsung Galaxy</div>
+      <div class="legend-item"><span class="ldot" style="background:#00c9ff"></span>Google Pixel</div>
+      <div class="legend-item"><span class="ldot" style="background:#ffd700"></span>Redmi Note Joker</div>
+      <div class="legend-item"><span class="ldot" style="background:#e040fb"></span>منحني (UV)</div>
+      <div class="legend-item"><span class="ldot" style="background:#00e5a0"></span>Redmi اقتصادي</div>
+      <div class="legend-item">
+        <span
+          style="background:rgba(0,229,160,.1);border:1px solid rgba(0,229,160,.3);color:#00e5a0;font-size:10px;padding:2px 7px;border-radius:4px">✦</span>
+        جديد 2026
+      </div>
+    </div>
+  </div>
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
