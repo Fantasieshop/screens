@@ -194,14 +194,11 @@ function setFilter(f, btn) {
 function applyTheme(theme) {
   document.documentElement.setAttribute('data-theme', theme);
   const icon  = document.getElementById('themeIcon');
-  const label = document.getElementById('themeLabel');
   if (!icon) return;
   if (theme === 'light') {
     icon.textContent  = '🌙';
-    label.textContent = 'داكن';
   } else {
     icon.textContent  = '☀️';
-    label.textContent = 'فاتح';
   }
   localStorage.setItem('theme', theme);
 }
